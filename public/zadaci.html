@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE>Spirala1</TITLE>
+	<link rel="stylesheet" type="text/css" href="zadacicss.css">
+	<link rel="stylesheet" type="text/css" href="headerfooter.css">
+	<SCRIPT src="validacija.js"></SCRIPT>
+	<SCRIPT src="zadaci.js"></SCRIPT>
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+	<DIV id="header">
+		<IMG src="logo.png" alt="logo" id="logo">
+		<H1>Odabir vježbe</H1>
+		<UL id="meni">
+			<li><a href="studenti.html">Pregled studenata</a></li>
+			<li><a href="zadaci.html">Odabir vježbe</a></li>
+			<li><a href="commiti.html">Pregled commita</a></li>
+			<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+			<li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+			<li><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li><a href="addGodina.html">Dodavanje godine</a></li>
+		</UL>
+	</DIV>
+	
+	<div class="cetvrtina">
+		<h3>Godina</h3>
+		<ul id="godina">
+			<li>Godina 2014/2015</li>
+			<li>Godina 2015/2016</li>
+			<li>Godina 2016/2017</li>
+			<li>Godina 2017/2018</li>
+			<li>Godina 2018/2019</li>
+		</ul>
+	</div>
+
+	<div class="cetvrtina">
+		<h3>Student</h3>
+		<div id=greska></div>
+		<form action="#" onsubmit="return false">
+			<input type="text" name="query" id=query><br>
+			<input type="submit" value="Search" onclick="return validiraj()"> 
+		</form>
+		<ul id="imena">
+			<li>Ime i prezime|index</li>
+			<li>Neko Nekić|12345</li>
+			<li>Neko Nekić|12345</li>
+			<li>Neko Nekić|12345</li>
+			<li>Neko Nekić|12345</li>
+		</ul>
+	</div>
+	
+	<div class="polovina">
+		<div class="folder">
+			<h3>Vježbe</h3>
+			<div class=item>
+				Vježba 1
+			</div>
+			<div class=item>
+				Vježba 2
+			</div>
+			<div class=item>
+				Vježba 3
+			</div>
+			<div class=item>
+				Vježba 4
+			</div>
+			<div class=item>
+				Vježba 5
+			</div>
+			<div class=item>
+				Vježba 6
+			</div>
+		</div>
+		
+		<div class="folder">
+			<h3>Spirale</h3>
+			<div class=item>
+				Spirala 1
+			</div>
+			<div class=item>
+				Spirala 2
+			</div>
+			<div class=item>
+				Spirala 3
+			</div>
+			<div class=item>
+				Spirala 4
+			</div>
+		</div>
+	</div>
+	
+	<DIV id="footer">
+		Web tehnologije 2018/19
+	</DIV>
+</BODY>
+</HTML>

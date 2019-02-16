@@ -1,0 +1,73 @@
+#side{
+	width:35%;
+	float:left;
+	background-color:#eaeaea;
+	height:95%;
+	overflow:auto;
+}
+
+#glavniSadrzaj{
+	width:65%;
+	float:right;
+	height:95%;
+	background-color:#b5becc;
+	overflow:auto;
+}
+
+#side>ul{
+	margin: auto;
+	background-color:white;
+	width:180px;
+	height:270px;
+	overflow:scroll;
+	list-style-type:none;
+}
+
+h3{
+	text-align:center;
+}
+
+table{
+    border: 1px solid black;
+	border-collapse:collapse;
+	margin:auto;
+	margin-top:60px;
+}
+
+#side li{
+	margin-left:-15%;
+}
+
+#side li:hover{
+	background-color:#e8e8e8;
+}
+
+th, td{border: 1px solid black; padding:10px;}
+
+th{
+	background-color:#eaeaea;
+}
+
+
+@media (max-width: 600px) {
+
+#side{
+	width:100%;
+	height:55%;
+	float:left;
+}
+
+#glavniSadrzaj{
+	width:100%;
+	height:55%;
+	float:left;
+}
+
+side>ul{
+	height:200px;
+}
+}
+
+
+
+

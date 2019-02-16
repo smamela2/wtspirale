@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>Spirala1</TITLE>
+		<link rel="stylesheet" type="text/css" href="commiticss.css">
+		<link rel="stylesheet" type="text/css" href="headerfooter.css">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<SCRIPT src="commiti.js"></SCRIPT>
+		<SCRIPT src="committabela.js"></SCRIPT>
+	</HEAD>
+	<BODY>
+		<DIV id="header">
+			<IMG src="logo.png" alt="logo" id="logo">
+			<H1>Pregled commita</H1>
+			<UL id="meni">
+				<li><a href="studenti.html">Pregled studenata</a></li>
+				<li><a href="zadaci.html">Odabir vježbe</a></li>
+				<li><a href="commiti.html">Pregled commita</a></li>
+				<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+				<li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+				<li><a href="addStudent.html">Dodavanje studenata</a></li>
+				<li><a href="addGodina.html">Dodavanje godine</a></li>
+			</UL>
+		</DIV>
+
+		<div id="sredina">
+			<p>Student: Neko Nekić, 1234</p>
+			<p>Naziv vježbe/spirale: Vježba 1</p>
+			<p>Repozitorij: <a href="https://bitbucket.org">Hyperlink</a></p>
+			
+			<form class=jsforme>
+				Broj zadataka:
+				<input type=number name=brojZadataka id=brojZadataka>
+				<input type=button name=dugmeKreiraj id=dugmeKreiraj value=Kreiraj onclick="return kreiraj()">
+			</form>
+			
+			<form class=jsforme>
+				Zadatak:<input type=number name=brojZadatkaD id=brojZadatkaD>
+				URL:<input type=text name=noviUrlD id=noviUrlD>
+				<input type=button name=dugmeDodaj id=dugmeDodaj value=Dodaj onclick="return dodaj()">
+			</form>
+			
+			<form class=jsforme>
+				Zadatak:<input type=number name=brojZadatkaE id=brojZadatkaE>
+				Commit:<input type=number name=brojCommitaE id=brojCommitaE>
+				URL:<input type=text name=noviUrlE id=noviUrlE>
+				<input type=button name=dugmeEdituj id=dugmeEdituj value=Edituj onclick="return edituj()">
+			</form>
+			
+			<form class=jsforme>
+				Zadatak:<input type=number name=brojZadatkaB id=brojZadatkaB>
+				Commit:<input type=number name=brojCommitaB id=brojCommitaB>
+				<input type=button name=dugmeObrisi id=dugmeObrisi value=Obrisi onclick="return obrisi()">
+			</form>
+
+			<div id="tabela">
+			
+			</div>
+		</div>
+
+		<DIV id="footer">
+			Web tehnologije 2018/19
+		</DIV>
+	</BODY>
+</HTML>

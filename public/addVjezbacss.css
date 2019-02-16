@@ -1,0 +1,80 @@
+body{
+	background-color:#b5becc;
+}
+
+#glavniSadrzaj{
+	background-color:#eaeaea;
+	height:95%;
+	width:85%;
+	margin:auto;
+	overflow:auto;
+}
+
+form{
+	background-color: #d5d5d5;
+	box-shadow:2px 2px grey;
+	margin:auto;
+}
+
+form[name="fPostojeca"]{
+	width:300px;
+	height:215px;
+}
+
+form[name="fNova"]{
+	width:300px;
+	height:220px;
+}
+
+form[name="fPoveziZadatak"]{
+	width:300px;
+	height:190px;
+}
+
+input, select{
+		margin-left:20px;
+}
+
+p{
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+form>  ul{
+	list-style-type:none;
+	background-color:white;
+	border:1px solid black;
+	width:120px;
+	margin-left:20px;
+}
+
+input[type=submit], input[type=checkbox]{
+	margin-top:10px;
+}
+
+input[type=submit]
+{
+	float: right;
+	margin-right:40px;
+}
+
+h3{
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+select[name=sGodine],select[name=sVjezbe]{
+	width:160px;
+}
+
+
+
+@media (max-width: 600px) {
+#glavniSadrzaj{
+	width:100%;
+	float:left;
+	height:75%;
+}
+}
+

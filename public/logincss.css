@@ -1,0 +1,23 @@
+body{
+	background-color:#6D7993;
+	height:100%;
+	margin:auto;
+}
+	
+#login {
+	position: absolute;
+	background-color: #eaeaea;
+	width:240px;
+	height:140px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding:30px;
+}
+
+input[name="login"]{
+	margin-right:40px;
+	float:right;
+}

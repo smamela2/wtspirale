@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+	<TITLE>Spirala1</TITLE>
+	<link rel="stylesheet" type="text/css" href="addStudentcss.css">
+	<link rel="stylesheet" type="text/css" href="headerfooter.css">
+	<SCRIPT src="validacija.js"></SCRIPT>
+	<SCRIPT src="addStudent.js"></SCRIPT>
+	<SCRIPT src="BitBucket.js"></SCRIPT>
+	<SCRIPT src="PomocniAjax.js"></SCRIPT>
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+
+<BODY onload="ucitajGodine()">
+	<DIV id="header">
+		<IMG src="logo.png" alt="logo" id="logo">
+		<H1>Dodavanje studenata</H1>
+		<UL id="meni">
+			<li><a href="studenti.html">Pregled studenata</a></li>
+			<li><a href="zadaci.html">Odabir vježbe</a></li>
+			<li><a href="commiti.html">Pregled commita</a></li>
+			<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+			<li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+			<li><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li><a href="addGodina.html">Dodavanje godine</a></li>
+		</UL>
+	</DIV>
+
+	<DIV id="glavniSadrzaj">
+		<br>
+		<FORM name="fPojedinacni" action="#" onsubmit="return false">
+			<h3>Unos studenata</h3>
+			<div id=greska1>
+			</div>
+			<p>Godina</p>
+			<SELECT name="sGodina" id="sGodina">
+			</SELECT><BR>
+			<p>Key</p>
+			<INPUT type="text" name="key" id="key" required>
+			<p>Secret</p>
+			<INPUT type="text" name="secret" id="secret" required><br>
+			<br>
+			<button type="button" onclick="ucitajStudente()" value="Učitaj">Učitaj</button>
+			<INPUT type="button" id="dodajButton" value="Dodaj" onclick="dodajStudente()" disabled>
+		</FORM>
+
+	</DIV>
+
+	<DIV id="footer">
+		Web tehnologije 2018/19
+	</DIV>
+</BODY>
+
+</HTML>

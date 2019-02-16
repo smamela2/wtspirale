@@ -1,0 +1,43 @@
+#sredina{
+	width:100%;
+	float:right;
+	height:95%;
+	background-color:#eaeaea;
+	overflow:auto;
+}
+
+table{
+    border: 1px solid black;
+	border-collapse:collapse;
+	margin-top:60px;
+	margin-left:40px;
+	margin-bottom:60px;
+	
+}
+
+th, td{border: 1px solid black;
+	   padding-top:10px;
+	   padding-bottom:10px;
+       padding-left:20px;
+	   padding-right:20px;}
+	   
+p{margin-left:40px;}
+
+th{background-color:#b5becc;}
+td{background-color:white;}
+
+.jsforme{
+	margin-bottom:5px;
+}
+
+@media (max-width: 600px) {
+#sredina{
+	width:100%;
+	float:left;
+	height:75%;
+}
+
+table{margin-left:20px;}
+th,td{padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:5px;}
+}
+

@@ -1,0 +1,85 @@
+.cetvrtina{
+	background-color:#D5D5D5;
+	height:95%;
+	width:25%;
+	float:left;
+	overflow:auto;
+}
+
+.polovina{
+	height:95%;
+	background-color:#b5becc;
+	width:50%;
+	float:right;
+	overflow:auto;
+}
+
+.cetvrtina>ul{
+	margin:0 auto;
+	background-color:white;
+	width:65%;
+	height:270px;
+	overflow:scroll;
+	list-style-type:none;
+	text-align: left;
+}
+
+.cetvrtina li{
+	margin-left:-15%;
+}
+
+.cetvrtina li:hover{
+	background-color:#e8e8e8;
+}
+
+h3{
+	text-align:center;
+}
+
+input{
+	margin-top:5px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+form{
+	width:50%;
+	margin:auto;
+}
+
+.item{
+	height:65px;
+	width:65px;
+	background-color:white;
+	display:inline-block;
+	margin:5px;
+	text-align:center;
+}
+
+.folder{
+	background-color: #d5d5d5;
+	box-shadow:2px 2px grey;
+	height:45%;
+	width:90%;
+	margin: 0 auto;
+	overflow:auto;
+	margin-bottom:20px;
+}
+
+@media (max-width: 600px) {
+
+.cetvrtina{
+	width:100%;
+	height:60%;
+	float:left;}
+	
+.cetvrtina ul{
+	width:50%;
+	height:200px;
+}
+.polovina{
+	width:100%;
+	float:left;
+}
+
+}
